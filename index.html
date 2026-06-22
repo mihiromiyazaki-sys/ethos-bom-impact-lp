@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>その部品変更、どの顧客製品に影響するか即答できますか。｜エートスAI</title>
-<meta name="description" content="EOL・仕様変更・環境調査の通知が来たとき、預かっている図面・BOM・仕様書から「影響する顧客製品・図番・BOM版数・委託先・通知先」を洗い出すAIワークフローを、御社専用に個社実装します。BOM/図面仲介型の電装・アセンブリ商社向け。入口は匿名化データOKの有償・影響範囲診断。">
+<meta name="description" content="EOL・仕様変更・価格改定・環境調査の通知が来たとき、預かっている図面・BOM・仕様書から「影響する顧客製品・図番・BOM版数・委託先・通知先」を洗い出し、BOM単価更新・見積見直しまでつなぐAIワークフローを、御社専用に個社実装します。BOM/図面仲介型の電装・アセンブリ商社向け。入口は匿名化データOKの有償・影響範囲診断。">
 <!-- JS有無の判定：JSが無い/動かない環境（PDF・メール埋め込み・古い環境）では全要素を最初から表示し、内容が欠けないようにする -->
 <script>document.documentElement.classList.add('js');</script>
 <style>
@@ -627,7 +627,7 @@
         <span class="target-tag mono" data-rv>BOM / 図面 仲介型 — 電装・アセンブリ商社向け</span>
         <h1 data-rv data-d="1">その部品変更、<br><span class="hl">どの顧客製品に影響するか</span><br>即答できますか。</h1>
         <p class="sub" data-rv data-d="2">
-          EOL・仕様変更・環境調査・使用中止の通知が来たとき、預かっている図面・BOM・仕様書から
+          EOL・仕様変更・価格改定・環境調査・使用中止の通知が来たとき、預かっている図面・BOM・仕様書から
           <b>「影響する顧客製品・図番・BOM版数・委託先」</b>を洗い出すAIワークフローを、御社専用に個社実装します。
         </p>
         <p class="not" data-rv data-d="2">
@@ -716,12 +716,12 @@
       <div class="steps" data-rv data-d="1">
         <div class="step">
           <div class="n">1</div>
-          <div class="c"><div class="ti">仕入先からEOL／仕様変更通知が届く</div>
+          <div class="c"><div class="ti">仕入先からEOL／仕様変更／価格改定通知が届く</div>
             <div class="boundary"><span class="h">▣ ここまで人</span></div></div>
         </div>
         <div class="step">
           <div class="n">2</div>
-          <div class="c"><div class="ti">AIが対象型番・変更内容（EOL／仕様変更／使用中止）・対応期限を抽出</div>
+          <div class="c"><div class="ti">AIが対象型番・変更内容（EOL／仕様変更／価格改定／使用中止）・対応期限を抽出</div>
             <div class="boundary"><span class="a">◆ ここからAI</span></div></div>
         </div>
         <div class="step">
@@ -738,7 +738,7 @@
         </div>
         <div class="step">
           <div class="n">6</div>
-          <div class="c"><div class="ti">顧客／委託先別に対応タスクを作成</div></div>
+          <div class="c"><div class="ti">顧客／委託先別に対応タスク（通知・価格改定のBOM単価更新／見積見直し）を作成</div></div>
         </div>
         <div class="step">
           <div class="n">7</div>
@@ -819,7 +819,7 @@
           <li>顧客のBOM・図面を預かっている</li>
           <li>図番・版数・BOM版数を管理している</li>
           <li>キッティング・購買代行をしている</li>
-          <li>EOL・仕様変更・環境調査が定期的に来る</li>
+          <li>EOL・仕様変更・価格改定・環境調査が定期的に来る</li>
           <li>品質保証・証跡管理が求められる</li>
           <li>年商 80〜500 億円規模（本開発投資の主対象）／ 営業・購買・品質・情シスが分かれている</li>
         </ul>
@@ -926,7 +926,7 @@
           <li>顧客BOM 3〜5 件</li>
           <li>図面PDF 5〜10 件</li>
           <li>部品台帳</li>
-          <li>EOL・仕様変更・環境調査の通知 5〜10 件</li>
+          <li>EOL・仕様変更・価格改定・環境調査の通知 5〜10 件</li>
           <li>顧客・製品・委託先の一覧</li>
           <li>現在の通知管理Excel</li>
         </ul>
